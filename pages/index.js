@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.css';
 import { useState, useEffect } from 'react';
-import Link from 'next/Link';
+import Link from 'next/link';
 
 import { DataStore } from '@aws-amplify/datastore';
 import { Post } from '../models';
